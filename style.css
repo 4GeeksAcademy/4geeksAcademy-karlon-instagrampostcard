@@ -1,0 +1,98 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;                            /* Estilos general  */
+    padding: 0px;
+}
+
+body {
+
+background-color: #302727; /* fondo del cuerpo de la pagina */
+}
+
+.post {
+    margin: 60px auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    height: 100%;                              /* Contenedor de post */                     
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;                        /* Cabecera contenedora de los span donde van: icono, usuario y fecha espaciado por direccion tipo fila y justificacion between espaciandolo con la propiedad with por cada span */
+    justify-content: space-between;
+    padding-bottom: 5px;
+    
+} 
+span.icono {
+    height: 80%;
+   width: 10%;
+   align-self: center;   /* span icono con with 10% para reducir espacio */
+  
+   margin: 4px 4px 0px 8px;
+
+}
+span.usuario{
+ height: 80%;
+   width: 85%;
+   align-self: flex-start; /* span usuario con width 85% para ocupar el espacio restante obligando al span siguiente al lado derecho del otro extremo*/
+   font-size: 1em;
+   padding: 8px 10px 0px 10px;
+}
+
+span.fecha{
+  margin: 8px 15px 8px 0px;
+    align-self: center; /* span no lleva propiedad with porque usa el espacio restante */
+    font-size: 1em;
+}
+
+
+
+.botones{
+
+     width: 100%;
+    height: 7%;
+    display: flex;           /* contenedor para el area de botones, se aplica la misma logica para todos los span correspondientes*/
+    flex-direction: row;
+
+}
+span.corazon{
+    height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.comentario{
+    height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.compartir{
+      height: 80%;
+   width: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+.guardar_post{
+     margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+}
+.texto{
+      
+    height: 30%;
+    padding: 10px;     /* contenedor para el pie del post */
+    font-size: 1em;
+}
+
+
+/* Yo Carlos Colmenares he usado Cada linea de codigo es comprendida y analizada, se ha utiliizado material guia como apoyo pero comprendida cada una para su buena practica. */
