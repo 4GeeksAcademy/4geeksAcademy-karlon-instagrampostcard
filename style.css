@@ -1,12 +1,12 @@
 * {
     font-family: "Roboto", sans-serif;
-    margin: 0px;                            /* Estilos general  */
+    margin: 0px;                            
     padding: 0px;
 }
 
 body {
 
-background-color: #302727; /* fondo del cuerpo de la pagina */
+background-color: #302727; 
 }
 
 .post {
@@ -14,7 +14,7 @@ background-color: #302727; /* fondo del cuerpo de la pagina */
     border-radius: 10px;
     background-color: white;
     width: 30%;
-    height: 100%;                              /* Contenedor de post */                     
+    height: 100%;                                             
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -24,7 +24,7 @@ background-color: #302727; /* fondo del cuerpo de la pagina */
     width: 100%;
     height: 10%;
     display: flex;
-    flex-direction: row;                        /* Cabecera contenedora de los span donde van: icono, usuario y fecha espaciado por direccion tipo fila y justificacion between espaciandolo con la propiedad with por cada span */
+    flex-direction: row;                        
     justify-content: space-between;
     padding-bottom: 5px;
     
@@ -32,7 +32,7 @@ background-color: #302727; /* fondo del cuerpo de la pagina */
 span.icono {
     height: 80%;
    width: 10%;
-   align-self: center;   /* span icono con with 10% para reducir espacio */
+   align-self: center;   
   
    margin: 4px 4px 0px 8px;
 
@@ -40,14 +40,14 @@ span.icono {
 span.usuario{
  height: 80%;
    width: 85%;
-   align-self: flex-start; /* span usuario con width 85% para ocupar el espacio restante obligando al span siguiente al lado derecho del otro extremo*/
+   align-self: flex-start; 
    font-size: 1em;
    padding: 8px 10px 0px 10px;
 }
 
 span.fecha{
   margin: 8px 15px 8px 0px;
-    align-self: center; /* span no lleva propiedad with porque usa el espacio restante */
+    align-self: center; 
     font-size: 1em;
 }
 
@@ -57,7 +57,7 @@ span.fecha{
 
      width: 100%;
     height: 7%;
-    display: flex;           /* contenedor para el area de botones, se aplica la misma logica para todos los span correspondientes*/
+    display: flex;           
     flex-direction: row;
 
 }
@@ -95,4 +95,3 @@ span.compartir{
 }
 
 
-/* Yo Carlos Colmenares he usado Cada linea de codigo es comprendida y analizada, se ha utiliizado material guia como apoyo pero comprendida cada una para su buena practica. */
